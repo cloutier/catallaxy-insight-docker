@@ -8,6 +8,13 @@
     "web"
   ],
   "servicesConfig": {
+    "insight-ui": {
+      "routePrefix": "",
+      "apiPrefix": "api"
+    },
+    "insight-api": {
+      "routePrefix": "api"
+    },
     "bitcoind": {
       "spawn": {
         "datadir": "./data",
